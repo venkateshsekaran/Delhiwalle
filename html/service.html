@@ -2,6 +2,7 @@
     <head>
         <title>   Delhi walle </title>
         <link rel="stylesheet" href="./css/delhiwalle.css">
+        <link rel="stylesheet" href="./css/servi.css">
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
@@ -29,16 +30,93 @@
                 </ul>
             </div>    
         </nav>
-        <div class="container">
-             <h3 class="text-uppercase bg-success text-warning mx-auto mt-3">Our Other Services:-</h3>
-             <ul">
-                 <li class="text-uppercase"><h4>Outdoor catering</h4></li>
-                 <li class="text-uppercase"><h4>corporate catering</h4></li>
-                 <li class="text-uppercase"><h4>bulk party orders</h4></li>
-                 <li class="text-uppercase"><h4>cash N' carry Counters</h4></li>
-                 <li class="text-uppercase"><h4>Snack boxes</h4></li>
-             </ul>
+        <div class="hero">
+                <h1> Our Other Services</h1>
+        <div class="review-box">
+            <div id="slide">
+                <div class="card">
+                    <div class="profile">
+                        <img src="https://5.imimg.com/data5/UW/FX/GLADMIN-34126045/outdoor-catering-services-500x500.jpg" >
+                        <div>
+                            <h3>Outdoor Catering</h3>
+                        </div>
+                    </div>
+                        <p>We are catering to the demands of numerous industries by offering an extensive range of Outdoor Catering Services and can be modified in accordance with clients requirements. These enclosures are designed using latest technology and are used to place equipment in safe manner, we are looking for queries from Bengaluru, Karnataka.</p>
+                </div>
+                    <div class="card">
+                        <div class="profile">
+                            <img src="https://media.istockphoto.com/photos/businesspeople-having-a-meet-and-greet-with-potential-clients-picture-id939262734?k=20&m=939262734&s=612x612&w=0&h=Dkv2JZffDyYGMpWIL4hFD6VkbV_G9bVXsmX0dsFJzLE=" >
+                            <div>
+                                <h3>Corporate Catering</h3>
+                            </div>
+                        </div>
+                            <p>Whether it’s catering for a corporate or commercial event, spectacular food for a wedding, outside catering for a private event or a fine dining experience, Best Choice Caterers can provide the planning and preparation, exquisite food and impeccable catering service that will make for an unforgettable experience for any client.</p>
+                            </div>
+                     
+                        <div class="card">
+                            <div class="profile">
+                                <img src="http://assets.limetray.com/assets/image_manager/uploads/4301/centrall1.jpg" >
+                                <div>
+                                    <h3>Bulk Party Orders</h3>
+                                </div>
+                            </div>
+                                <p>Organizing an event in your college and looking for a caterer who is trustworthy and would impress everyone? DelhiWalle is here for you, Order in bulk for more of the tasty treasure and make your college events memorable by enjoying the healthiest food with your friends.</p>
+                                </div>
+                           
+                            <div class="card">
+                                <div class="profile">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTU8HpzEJWH03ZUINyWxhj3k3HzRHe1XhQg&usqp=CAU" >
+                                    <div>
+                                        <h3>Cash'N Carry Counters</h3>
+                                    </div>
+                                </div>
+                                    <p>We address your needs with utmost care and ensure your satisfaction in whatever we do. Give us an opportunity to serve you. We will gift you with a pleasant experience customers are always treated with courtesy and you can feel it when you are with us </p>
+                                    </div>
+                               
+                                <div class="card">
+                                    <div class="profile">
+                                        <img src="https://www.hersheyland.com/content/dam/hersheyland/en-us/blogs/blog-images/HSY_111720_CarePackage_shot1.jpg" >
+                                        <div>
+                                            <h3>Snack Boxes</h3>
+                                        </div>
+                                    </div>
+                                        <p>We cater to bulk orders of healthy and homemade meal and snack box plans, which are also fresh and economical. Our specially curated menu consists of appetizing meal boxes @79, mouth- watering snack boxes @69, and flavourful beverages @49. This Childrens’ Day, make your toddlers feel joy through loads of frolic in the form of healthy and homemade food.</p>
+                                        </div>
+                             </div>
+                             <div class="sidebar">
+                                <img src=".//css/imgarrow/up-arrow.png" id="upArrow" >
+                                <img src=".//css/imgarrow/down-arrow.png" id="downArrow" >
+                                </div>
         </div>
+        
+        </div>
+        <script>
+            var slide= document.getElementById("slide");
+            var upArrow= document.getElementById("upArrow");
+            var downArrow= document.getElementById("downArrow");
+     
+           let x=0;
+           upArrow.onclick=function()
+           {
+           if (x > "-1200")
+           {
+              x= x - 300;
+             slide.style.top = x + "px";
+           }
+         }
+         downArrow.onclick=function()
+           {
+           if (x < "0")
+           {
+              x= x + 300;
+             slide.style.top = x + "px";
+           }
+         }
+          </script>
+
+
+
+
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg mt-1">
             <div class="mx-auto">
                 <ul class="navbar-nav mx-auto px-auto">
