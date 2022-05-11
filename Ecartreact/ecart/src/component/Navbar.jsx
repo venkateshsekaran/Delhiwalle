@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light ml-auto container py-3 shadow-sm">
-        <Link className="navbar-brand fw-bold fs-4" to="#">
+        <Link className="navbar-brand fw-bold fs-4" to="/home">
           LA COLLECTION
         </Link>
         <button
@@ -42,19 +42,19 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="./contact">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
             </li>
           </ul>
           <div className="buttons">
-            <Link to="./login" className="btn btn-outline-dark">
+            <Link to="/login" className="btn btn-outline-dark">
               <i className="fa fa-sign-in me-1"> Login </i>
             </Link>
-            <Link to="./register" className="btn btn-outline-dark ms-2">
+            <Link to="/register" className="btn btn-outline-dark ms-2">
               <i className="fa fa-user-plus me-1"> Register </i>
             </Link>
-            <Link to="./cart" className="btn btn-outline-dark ms-2">
+            <Link to="/cart" className="btn btn-outline-dark ms-2">
               <i className="fa fa-shopping-cart me-1">Cart ({state.length})</i>
             </Link>
           </div>
