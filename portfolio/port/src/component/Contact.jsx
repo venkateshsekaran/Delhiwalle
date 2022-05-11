@@ -52,7 +52,7 @@ function Contact() {
         <div className="container  ">
           <div className="row d-flex justify-content-center">
             <div className="col-md-8  mb-5 bg p-3">
-              <div className="card">
+              <div className="card ">
                 <div className="card-body bg-secondary text-white">
                   <form onSubmit={submitHandler}>
                     <div className="mb-3">

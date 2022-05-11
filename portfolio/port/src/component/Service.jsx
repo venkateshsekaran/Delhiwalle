@@ -3,11 +3,11 @@ import DATA from "./Data";
 function Service() {
   const card = (props) => {
     return (
-      <div className="col-md-4 mb-5 pb-5 mt-5">
+      <div className="col-md-6 mb-5 pb-5 mt-5">
         <div className="card text-center py-5" key={props.id}>
           <img
             src={props.img}
-            className="card-img-top mx-auto py-2"
+            className="card-img-top mx-auto p-2"
             alt={props.title}
           />
           <div className="card-body">

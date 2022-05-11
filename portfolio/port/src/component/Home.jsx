@@ -13,10 +13,14 @@ export default function Home() {
               I'm Web Developer <br /> <b>Venkatesh S</b>
             </h1>
             <p className="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              laborum corrupti deleniti recusandae veniam facere ratione eaque
-              eum reiciendis cupiditate quos maxime modi exercitationem, totam,
-              necessitatibus eveniet sed rerum mollitia!
+              Hi everyone,I've been learning web Development for a long time and
+              getting stronger day by day.
+              <br />
+              <span style={{ fontWeight: "bold" }}>
+                "Never stop learning because life never stops teaching"
+              </span>
+              <br />i don't know who said the quote but i love it because it
+              suits for both professional and personal life.
             </p>
             <Link
               className="btn btn-outline-primary me-4"
